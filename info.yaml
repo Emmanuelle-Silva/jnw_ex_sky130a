@@ -1,15 +1,14 @@
 library: JNW_EX_SKY130A
 cell: JNW_EX
-author: Anonymous
+author: Emmanuelle
 github: analogicus
-tagline: The answer is 42
-email: anon@anon.com
+tagline: Skywater 130nm
+email: silvaemanuelleeng@gmail.com
 url: analogicus.github.io
 doc:
-  # Make docs
-  #libraries:
-  #   <library>:
-  #       - <cell>
-  #       - <cell>
+  libraries:
+     JNW_EX_SKY130A:
+         - JNW_EX
+  
 sim:
-  # <simdir>: command
+  
